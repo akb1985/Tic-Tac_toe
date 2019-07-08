@@ -1,0 +1,206 @@
+body{
+    margin:0px;
+    background-color: orange;
+}
+.header{
+    
+    width:100%;
+    height:50px;
+    /* background-color: aqua; */
+}
+.head{
+    text-align:center;
+    /* color:red; */
+    font-size:33px;
+    font-family:comic sans ms;
+}
+
+.section{
+    width:300px;
+    height:300px;
+    margin: auto;
+}
+.but{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    font-weight: 1000;
+    border:transparent;
+    outline:none;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.but1{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    font-weight: 1000;
+    border:transparent;
+    outline:none;
+    border-right: 3px solid black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    
+}
+.but2{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    outline:none;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    font-weight: 1000;
+    border:transparent;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.but3{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    outline:none;
+    font-weight: 1000;
+    border:transparent;
+    border-right: 3px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.but4{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    outline:none;
+    font-weight: 1000;
+    border:transparent;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+.but5{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    outline:none;
+    font-weight: 1000;
+    border:transparent;
+    /* border-right: 2px solid black; */
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+.but6{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    outline:none;
+    font-weight: 1000;
+    border:transparent;
+    border-right: 3px solid black;
+    
+    border-top: 3px solid black;
+}
+.but7{
+    font-size: 50px;
+    width:100px;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    outline:none;
+    font-weight: 1000;
+    border:transparent;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+    border-right: 3px solid black;
+}
+.but8{
+    font-size: 50px;
+    width:100px;
+    outline:none;
+    height:100px;
+    float: left;
+    font-family: comic sans ms;
+    background-color :  rgb(255, 196, 0);
+    color:white;
+    font-weight: 1000;
+    border:transparent;
+    border-left: 3px solid black;
+    border-top: 3px solid black;
+}
+
+.p{
+    font-size: 40px;
+    text-align: center;
+    font-family: comic sans ms;
+}
+.winner{
+    width:250px;
+    height:150px;
+    position: relative;
+    top:-200px;
+    left:1000px;
+    
+     /* background-color: aqua;  */
+}
+.span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: comic sans ms;
+}
+.restart{
+    width:100px;
+    height:30px;
+    display:block;
+    position: absolute;
+    left:-370px;
+    top:300px;
+    background-color:transparent;
+    outline:none;
+    border-color:red blue;
+    border-radius:10px;
+    
+}
+.re{
+    font-size:13px;
+    font-weight: bold;
+    font-family: comic sans ms;
+}
+.but:hover{
+    background-color: white;
+}
+.X{
+   position:absolute;
+   left:-850px;
+}
+.Y{
+    position: absolute;
+    left:100px;
+}
