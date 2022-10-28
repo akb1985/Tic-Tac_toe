@@ -31,19 +31,19 @@ function s(t)
         {
             if(turn%2 == 0)
             {
-            t.innerHTML = "X"
-            document.getElementById(t.id).style.backgroundColor ="red"
+            t.innerHTML = "x"
+            document.getElementById(t.id).style.backgroundColor ="green"
             }
              else{
             t.innerHTML = "O"
-            document.getElementById(t.id).style.backgroundColor ="blue"
+            document.getElementById(t.id).style.backgroundColor ="pink"
             }    
             turn++;
         }
         a[t.id] = t.innerHTML
-        if((a[1]=="X" && a[2]=="X" && a[3]=="X") || (a[4]=="X" && a[5]=="X" && a[6]=="X") || (a[7]=="X" && a[8]=="X" && a[9]=="X") || (a[1]=="X" && a[4]=="X" && a[7]=="X") || (a[2]=="X" && a[5]=="X" && a[8]=="X") || (a[3]=="X" && a[6]=="X" && a[9]=="X") || (a[1]=="X" && a[5]=="X" && a[9]=="X") || (a[3]=="X" && a[5]=="X" && a[7]=="X"))
+        if((a[1]=="x" && a[2]=="x" && a[3]=="x") || (a[4]=="x" && a[5]=="x" && a[6]=="x") || (a[7]=="x" && a[8]=="x" && a[9]=="x") || (a[1]=="x" && a[4]=="x" && a[7]=="x") || (a[2]=="x" && a[5]=="x" && a[8]=="x") || (a[3]=="x" && a[6]=="x" && a[9]=="x") || (a[1]=="x" && a[5]=="x" && a[9]=="x") || (a[3]=="x" && a[5]=="x" && a[7]=="x"))
         {
-            alert("X wins");
+            alert("x wins");
             if(sessionStorage.winner1)
             {
                    
@@ -52,7 +52,7 @@ function s(t)
             else{
                 sessionStorage.winner1 = 1;
             }
-            document.getElementById("p").innerHTML = "Player <strong style='color:red;'>X</strong> Win"
+            document.getElementById("p").innerHTML = "Player <strong style='color:red;'>x</strong> Win"
                        
             document.getElementById("winner1").innerHTML = sessionStorage.winner1;
             // document.getElementById("winner2").innerHTML = sessionStorage.winner2;
